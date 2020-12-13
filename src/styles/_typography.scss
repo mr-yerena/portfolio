@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+$family-primary: 'Poppins';
+
+// Headlines
+h2 {
+  &.title {
+    font-family: $family-primary;
+    font-size: $size-10;
+    line-height: $size-11;
+    font-weight: $weight-bold;
+    color: $purple-bis;
+  }
+}

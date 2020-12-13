@@ -3,12 +3,13 @@ import React from 'react'
 
 // Import Components
 import {
-  Layout
+  Layout,
 } from 'components'
 
-// Import Libraries
-import PropTypes from 'prop-types'
-
-const HomePage = () => {}
+const HomePage = () => (
+  <Layout>
+    Hi there...
+  </Layout>
+)
 
 export default HomePage
